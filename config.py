@@ -9,8 +9,8 @@ DESCRIPTION: str = config("DESCRIPTION", cast=str)
 VERSION: str = config("VERSION", cast=str)
 
 # OpenAI
-OPENAI_API_KEY: Secret = config("OPENAI_KEY", cast=Secret)
-OPENAI_MODEL: str = config("OPENAI_MODEL_NAME", cast=str)
+OPENAI_API_KEY: Secret = config("OPENAI_API_KEY", cast=Secret)
+OPENAI_MODEL: str = config("OPENAI_MODEL", cast=str)
 OPENAI_MODEL_GPT_4: str = config("OPENAI_MODEL_NAME_GPT_4", cast=str)
 
 # Backend API
